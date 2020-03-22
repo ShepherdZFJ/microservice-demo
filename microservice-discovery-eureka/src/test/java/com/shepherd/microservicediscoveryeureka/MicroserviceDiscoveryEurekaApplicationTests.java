@@ -1,11 +1,11 @@
-package com.shepherd.microserviceconsumermoviedemo;
+package com.shepherd.microservicediscoveryeureka;
 
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MicroserviceConsumerMovieDemoApplicationTests {
+class MicroserviceDiscoveryEurekaApplicationTests {
 
     @Test
     void contextLoads() {

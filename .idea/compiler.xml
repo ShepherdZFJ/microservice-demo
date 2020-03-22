@@ -8,14 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-demo" />
         <module name="microservice-consumer-movie-demo" />
+        <module name="microservice-discovery-eureka" />
         <module name="microservice-provider-user-demo" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="microservice-consumer-movie-demo" options="-parameters" />
-      <module name="microservice-provider-user-demo" options="-parameters" />
+      <module name="microservice-consumer-movie-demo" options="" />
+      <module name="microservice-discovery-eureka" options="" />
+      <module name="microservice-provider-user-demo" options="" />
     </option>
   </component>
 </project>
